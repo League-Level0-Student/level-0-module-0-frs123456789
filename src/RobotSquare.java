@@ -12,15 +12,23 @@ public class RobotSquare {
  
     	// 1. Make a new Robot
 
-
+Robot c3po = new Robot();
+    	
         // 3. Put the robot's pen down
-
+c3po.penDown();
 
         // 6. Make the robot move as fast as possible
 
+c3po.setSpeed(1000000000);
 
         // 5. Do everything below here 4 times
 
+for(int i=0; i<4; i++) {
+
+c3po.move(200);
+c3po.turn(90);
+
+}
 
         //         2. Move your robot 200 pixels
 
